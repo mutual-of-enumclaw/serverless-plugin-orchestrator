@@ -19,6 +19,6 @@
         "glob-fs": "^0.1.7"
     },
     "devDependencies": {
-        "jest": "^24.8.0"
+        "jest": "^25.3.0"
     }
 }
