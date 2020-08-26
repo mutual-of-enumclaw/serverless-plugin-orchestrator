@@ -1,7 +1,11 @@
 'use strict';
 
 const fs = require('fs');
-const glob = require("glob-fs")({ gitignore: true });
+const glob = require("glob");
+
+glob.prototype.readdirSync = (path, options) => {
+    return glob(path, options);
+}
 
 class ServerlessPlugin {
     constructor(serverless, options) {

@@ -1,6 +1,6 @@
 {
     "name": "serverless-plugin-orchestrator",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "src/index.js",
     "publisher": "Mutual of Enumclaw",
     "description": "Leverages orchestrator annotation for json files to allow serverless to inject values for steps",
@@ -16,7 +16,7 @@
         "files"
     ],
     "dependencies": {
-        "glob-fs": "^0.1.7"
+        "glob": "^7.1.6"
     },
     "devDependencies": {
         "jest": "^25.3.0"
