@@ -16,7 +16,7 @@
         "files"
     ],
     "dependencies": {
-        "glob-fs": "^0.1.7"
+        "glob": "^7.1.6"
     },
     "devDependencies": {
         "jest": "^25.3.0"
