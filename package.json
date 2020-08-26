@@ -1,6 +1,6 @@
 {
     "name": "serverless-plugin-orchestrator",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "main": "src/index.js",
     "publisher": "Mutual of Enumclaw",
     "description": "Leverages orchestrator annotation for json files to allow serverless to inject values for steps",
