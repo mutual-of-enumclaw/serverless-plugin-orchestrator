@@ -11,7 +11,6 @@ class ServerlessPlugin {
     constructor(serverless, options) {
         this.serverless = serverless;
         this.options = options;
-
         this.hooks = {
         'after:aws:package:finalize:mergeCustomProviderResources': this.package.bind(this),
         };
